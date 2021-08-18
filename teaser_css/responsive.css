@@ -1,0 +1,104 @@
+@media (max-height: 650px) {
+  .h_sec3 .wrapper {
+    position: relative;
+    left: unset;
+    right: unset;
+    top: unset;
+    transform: unset;
+    padding-top: 50px;
+    padding-bottom: 50px; } }
+
+@media (max-width: 992px) {
+  .h_sec3 h1 {
+    font-size: 45px; }
+  .h_sec3 p {
+    font-size: 21px; }
+  .h_sec3 h2 {
+    font-size: 28px; }
+  .h_sec3 .wrapper {
+    position: relative;
+    left: unset;
+    right: unset;
+    top: unset;
+    transform: unset;
+    padding-top: 50px;
+    padding-bottom: 50px; } }
+
+@media (max-width: 420px) {
+  .h_sec3 h1 {
+    font-size: 31px; }
+  .h_sec3 p {
+    font-size: 16px; }
+  .h_sec3 h2 {
+    font-size: 22px; } }
+
+@media (max-width: 420px) {
+  .h_sec3 .slider, .h_sec3 .wrapper {
+    padding-left: 0;
+    padding-right: 0; }
+  .h_sec3 .maint {
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .h_sec3 h1 {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .h_sec3 p {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .h_sec3 h2 {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+@media (max-width: 600px) {
+  .h_sec3 .topphone {
+    background: #F0E92D;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #000000;
+    font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .h_sec3 .wrapper {
+    padding-top: 70px; }
+  .h_sec3 h1 {
+    font-size: 61px;
+    line-height: unset; }
+    .h_sec3 h1 span {
+      font-size: 25px;
+      display: block; }
+  .h_sec3 h2 {
+    color: #fff;
+    font-size: 25px;
+    max-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; }
+    .h_sec3 h2 span {
+      display: none; }
+  .h_sec3 .lastl {
+    font-size: 17px;
+    color: #BDF7F9;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto; }
+    .h_sec3 .lastl a {
+      color: #BDF7F9;
+      text-decoration: underline; }
+  .h_sec3 .insta {
+    max-width: 40px; }
+  .linkfor {
+    margin: auto;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: NikopolHalftone;
+    text-decoration: none;
+    text-align: center;
+    color: #BDF7F9; }
+    .linkfor span {
+      margin: auto;
+      display: block;
+      margin-top: 5px; }
+  .h_sec3 {
+    background: #000; } }
