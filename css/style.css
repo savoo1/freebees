@@ -91,20 +91,57 @@ input[type=number] {
   -moz-transition: all .25s ease;
   -ms-transition: all .25s ease;
   -o-transition: all .25s ease;
-  transition: all .25s ease; }
+  transition: all .25s ease;
+  text-align: center; }
+  .progress h2 {
+    font-family: NikopolHalftone;
+    font-size: 30px;
+    color: #F0E92D;
+    text-align: center;
+    display: inline-block; }
+    @media (max-width: 600px) {
+      .progress h2 {
+        font-size: 24px; } }
+  .progress .snippet {
+    width: 40px;
+    display: inline-block;
+    margin-left: 5px; }
+  .progress .dot-carousel {
+    display: inline-block;
+    position: relative;
+    left: -9999px;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #F0E92D;
+    color: #F0E92D;
+    box-shadow: 9984px 0 0 0 #F0E92D, 9999px 0 0 0 #F0E92D, 10014px 0 0 0 #F0E92D;
+    animation: dotCarousel 1.5s infinite linear; }
+
+@keyframes dotCarousel {
+  0% {
+    box-shadow: 9984px 0 0 -1px #F0E92D, 9999px 0 0 1px #F0E92D, 10014px 0 0 -1px #F0E92D; }
+  50% {
+    box-shadow: 10014px 0 0 -1px #F0E92D, 9984px 0 0 -1px #F0E92D, 9999px 0 0 1px #F0E92D; }
+  100% {
+    box-shadow: 9999px 0 0 1px #F0E92D, 10014px 0 0 -1px #F0E92D, 9984px 0 0 -1px #F0E92D; } }
   .progress .onmiddle {
     position: absolute;
-    max-width: 250px;
+    max-width: 350px;
     margin: auto;
     left: 0;
     right: 0;
     top: 50%;
     transform: translateY(-50%); }
     .progress .onmiddle img {
-      max-width: 80%;
+      max-width: 220px;
+      width: 80%;
       margin: auto;
       margin-bottom: 30px;
       display: block; }
+      @media (max-width: 600px) {
+        .progress .onmiddle img {
+          max-width: 160px; } }
   .progress .bgofbar {
     background: rgba(189, 247, 249, 0.14); }
 
