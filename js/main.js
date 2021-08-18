@@ -217,16 +217,16 @@ function check_element(ele)
 {
   var all = document.getElementsByTagName("*");
   var totalele=all.length;
-  var per_inc=200/all.length;
+  var per_inc=100/all.length;
 
   if($(ele).on())
   {
     var prog_width=per_inc+Number(document.getElementById("progress_width").value);
     document.getElementById("progress_width").value=prog_width;
-    $("#bar1").animate({width:prog_width+"%"},4,function(){
+    $("#bar1").animate({width:prog_width+"%"},10,function(){
       if(document.getElementById("bar1").style.width=="100%")
       {
-        $(".progress").fadeOut("slow");
+        // $(".progress").fadeOut("slow");
       }     
     });
   }
@@ -236,12 +236,13 @@ function check_element(ele)
     set_ele(ele);
   }
 }
-
+$( window ).on( "load", function() {
+    $(".progress").addClass("progress_done");
+});
 function set_ele(set_element)
 {
   check_element(set_element);
 }
-
 
 
 
