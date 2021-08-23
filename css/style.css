@@ -426,7 +426,11 @@ input[type=number] {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 100%; }
+    width: 100%;
+    opacity: 0; }
+
+.h_sec3 .item_video_active .forimgs_video video {
+  opacity: 1; }
 
 .h_sec3 .slider {
   padding-left: 6px;
@@ -2106,7 +2110,8 @@ input[type=number] {
       right: 0;
       top: 0;
       bottom: 0;
-      width: 100%; }
+      width: 100%;
+      opacity: 0; }
   .ps_sec3 .slider {
     padding-left: 6px;
     padding-right: 6px;

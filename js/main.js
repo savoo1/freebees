@@ -193,8 +193,9 @@ $( ".h_sec3 .item .forimgs_video .playbtn" ).click(function(e) {
         }
     }
     
-    var linkofvideo = $(this).parent().find("source").attr( "name" );
-    $(this).parent().find("source").attr( "src", linkofvideo );
+    // var linkofvideo = $(this).parent().find("source").attr( "name" );
+    // $(this).parent().find("source").attr( "src", linkofvideo );
+    alert("2");
     $(this).parent().find(".video")[0].load();
     $(this).parent().find(".video").get(0).play();
 });

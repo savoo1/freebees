@@ -379,7 +379,18 @@ input[type=number] {
 				top: 0;
 				bottom: 0;
 				width: 100%;
+				opacity: 0;
 			}
+		}
+	}
+	.item_video_active{
+		.forimgs_video{
+			video{
+				opacity: 1;
+			}
+		}
+		.playbtn{
+			opacity: 0;
 		}
 	}
 	.slider{
