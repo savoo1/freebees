@@ -350,7 +350,9 @@ input[type=number] {
   .h_sec3 .item_video_active .forimgs_video .snippet_finished {
     opacity: 0; }
   .h_sec3 .item_video_active .playbtn {
-    opacity: 0; }
+    opacity: 0 !important; }
+  .h_sec3 .item_video_active .playbtn:hover {
+    opacity: 0 !important; }
   .h_sec3 .slider {
     padding-left: 6px;
     padding-right: 6px;
