@@ -314,8 +314,40 @@ input[type=number] {
       bottom: 0;
       width: 100%;
       opacity: 0; }
+    .h_sec3 .item .forimgs_video .snippet {
+      width: 30px;
+      display: inline-block;
+      margin-left: 5px;
+      position: absolute;
+      right: 0px;
+      bottom: 10px;
+      z-index: 999;
+      opacity: 0; }
+    .h_sec3 .item .forimgs_video .dot-carousel {
+      display: inline-block;
+      position: relative;
+      left: -9999px;
+      width: 8px;
+      height: 8px;
+      border-radius: 5px;
+      background-color: #F0E92D;
+      color: #F0E92D;
+      box-shadow: 9984px 0 0 0 #F0E92D, 9999px 0 0 0 #F0E92D, 10014px 0 0 0 #F0E92D;
+      animation: dotCarousel 1.5s infinite linear; }
+
+@keyframes dotCarousel {
+  0% {
+    box-shadow: 9984px 0 0 -1px #F0E92D, 9999px 0 0 1px #F0E92D, 10014px 0 0 -1px #F0E92D; }
+  50% {
+    box-shadow: 10014px 0 0 -1px #F0E92D, 9984px 0 0 -1px #F0E92D, 9999px 0 0 1px #F0E92D; }
+  100% {
+    box-shadow: 9999px 0 0 1px #F0E92D, 10014px 0 0 -1px #F0E92D, 9984px 0 0 -1px #F0E92D; } }
   .h_sec3 .item_video_active .forimgs_video video {
     opacity: 1; }
+  .h_sec3 .item_video_active .forimgs_video .snippet {
+    opacity: 1; }
+  .h_sec3 .item_video_active .forimgs_video .snippet_finished {
+    opacity: 0; }
   .h_sec3 .item_video_active .playbtn {
     opacity: 0; }
   .h_sec3 .slider {
