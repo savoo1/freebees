@@ -359,7 +359,7 @@ input[type=number] {
 				position: absolute;
 				right: 10px;
 				bottom: 10px;
-				z-index: 9999;
+				z-index: 999999999;
 				-webkit-transition: all .25s ease;
 				   -moz-transition: all .25s ease;
 				    -ms-transition: all .25s ease;
@@ -380,6 +380,7 @@ input[type=number] {
 				bottom: 0;
 				width: 100%;
 				opacity: 0;
+				z-index: 99999999;
 			}
 
 
